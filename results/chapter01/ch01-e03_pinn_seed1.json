@@ -1,0 +1,18 @@
+{
+ "rel_l2": 0.004767174233033371,
+ "rel_linf": 0.005864744702438844,
+ "rel_residual_l2": 0.3181728929773983,
+ "residual_linf": 5.417178649825621,
+ "bc_linf": 0.0045378529493083075,
+ "ic_rel_l2": 0.0024263911735419473,
+ "extrap_rel_l2_vs_extrap_norm": 0.8210609618576554,
+ "extrap_l2_rel_to_domain_norm": 0.007859598159132888,
+ "extrap_abs_linf": 0.006318398196634378,
+ "inference_s_per_20301_points": 0.2072431520000464,
+ "n_params": 2241,
+ "adam_s": 38.97501289300021,
+ "lbfgs_s": 92.81169654900009,
+ "lbfgs_iters": 10000,
+ "lbfgs_msg": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+ "seed": 1
+}

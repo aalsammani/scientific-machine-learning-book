@@ -1,0 +1,107 @@
+{
+ "theta_true": 0.5,
+ "sigma_true": 0.4,
+ "T_total": 2000.0,
+ "n_reps": 20,
+ "data_generation": "Euler-Maruyama at the sampling step (first-edition protocol)",
+ "theta_std_asymptotic_sqrt_2theta_over_T": 0.022360679774997897,
+ "seeds": "numpy default_rng(10000*i_dt + rep)",
+ "results": [
+  {
+   "dt": 0.001,
+   "n_increments": 2000000,
+   "theta_mean": 0.5117490493642154,
+   "theta_std": 0.023065327138221643,
+   "theta_bias_rel": 0.023498098728430783,
+   "sigma_mean": 0.39998303317697814,
+   "sigma_std": 0.0001873286284032314,
+   "sigma_bias_rel": -4.2417057554700044e-05,
+   "theta_limit_exact": null,
+   "sigma_limit_exact": null
+  },
+  {
+   "dt": 0.01,
+   "n_increments": 200000,
+   "theta_mean": 0.4971302420019482,
+   "theta_std": 0.026748659174639037,
+   "theta_bias_rel": -0.005739515996103561,
+   "sigma_mean": 0.4004182531349466,
+   "sigma_std": 0.000520688707930137,
+   "sigma_bias_rel": 0.0010456328373664725,
+   "theta_limit_exact": null,
+   "sigma_limit_exact": null
+  },
+  {
+   "dt": 0.05,
+   "n_increments": 40000,
+   "theta_mean": 0.4981216205477386,
+   "theta_std": 0.0195912143614941,
+   "theta_bias_rel": -0.003756758904522761,
+   "sigma_mean": 0.4021257896385726,
+   "sigma_std": 0.0016379117470707737,
+   "sigma_bias_rel": 0.005314474096431487,
+   "theta_limit_exact": null,
+   "sigma_limit_exact": null
+  },
+  {
+   "dt": 0.1,
+   "n_increments": 20000,
+   "theta_mean": 0.49852778466691605,
+   "theta_std": 0.024274801097246345,
+   "theta_bias_rel": -0.0029444306661678965,
+   "sigma_mean": 0.40530583201225,
+   "sigma_std": 0.002254586228929107,
+   "sigma_bias_rel": 0.013264580030625028,
+   "theta_limit_exact": null,
+   "sigma_limit_exact": null
+  },
+  {
+   "dt": 0.5,
+   "n_increments": 4000,
+   "theta_mean": 0.5007221284237968,
+   "theta_std": 0.028852777890729805,
+   "theta_bias_rel": 0.001444256847593639,
+   "sigma_mean": 0.426974522380147,
+   "sigma_std": 0.006096881668102354,
+   "sigma_bias_rel": 0.06743630595036731,
+   "theta_limit_exact": null,
+   "sigma_limit_exact": null
+  },
+  {
+   "dt": 1.0,
+   "n_increments": 2000,
+   "theta_mean": 0.5050176541143728,
+   "theta_std": 0.022370432053152405,
+   "theta_bias_rel": 0.010035308228745654,
+   "sigma_mean": 0.46328915358631556,
+   "sigma_std": 0.009358415064244207,
+   "sigma_bias_rel": 0.15822288396578887,
+   "theta_limit_exact": null,
+   "sigma_limit_exact": null
+  },
+  {
+   "dt": 2.0,
+   "n_increments": 1000,
+   "theta_mean": 0.4999256638600816,
+   "theta_std": 0.01574062642098092,
+   "theta_bias_rel": -0.00014867227983683673,
+   "sigma_mean": 0.5620307961368135,
+   "sigma_std": 0.01644832236070695,
+   "sigma_bias_rel": 0.4050769903420337,
+   "theta_limit_exact": null,
+   "sigma_limit_exact": null
+  },
+  {
+   "dt": 4.0,
+   "n_increments": 500,
+   "theta_mean": 0.4990243140048648,
+   "theta_std": 0.001716430724318461,
+   "theta_bias_rel": -0.0019513719902704008,
+   "sigma_mean": 10.156282133898767,
+   "sigma_std": 5.0739376929742095,
+   "sigma_bias_rel": 24.390705334746915,
+   "theta_limit_exact": null,
+   "sigma_limit_exact": null
+  }
+ ]
+}

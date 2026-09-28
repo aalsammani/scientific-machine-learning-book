@@ -1,0 +1,90 @@
+{
+ "lotka_volterra": [
+  {
+   "rtol": 1e-06,
+   "nfev": 773,
+   "wall_s": 0.0072572780000115245,
+   "invariant_max_rel_drift": 3.935831134116441e-06
+  },
+  {
+   "rtol": 1e-08,
+   "nfev": 1256,
+   "wall_s": 0.008057011000005332,
+   "invariant_max_rel_drift": 1.0373909520300373e-07,
+   "rel_change_vs_prev": 1.1633053683455964e-06
+  },
+  {
+   "rtol": 1e-10,
+   "nfev": 1919,
+   "wall_s": 0.012005384000005392,
+   "invariant_max_rel_drift": 3.4685077032747813e-10,
+   "rel_change_vs_prev": 1.561444456355269e-08
+  },
+  {
+   "rtol": 1e-12,
+   "nfev": 2930,
+   "wall_s": 0.017517068999993057,
+   "invariant_max_rel_drift": 5.582423412420212e-12,
+   "rel_change_vs_prev": 4.8921849577318106e-11
+  }
+ ],
+ "pendulum_undamped": [
+  {
+   "rtol": 1e-06,
+   "nfev": 464,
+   "wall_s": 0.0030733420000075284,
+   "invariant_max_rel_drift": 7.747723604166777e-06
+  },
+  {
+   "rtol": 1e-08,
+   "nfev": 854,
+   "wall_s": 0.005466239000000428,
+   "invariant_max_rel_drift": 4.1437173134377444e-08,
+   "rel_change_vs_prev": 1.4269640342673334e-06
+  },
+  {
+   "rtol": 1e-10,
+   "nfev": 1406,
+   "wall_s": 0.009890232999993032,
+   "invariant_max_rel_drift": 1.9893934271509741e-10,
+   "rel_change_vs_prev": 4.314557162528274e-09
+  },
+  {
+   "rtol": 1e-12,
+   "nfev": 2267,
+   "wall_s": 0.014967092999995657,
+   "invariant_max_rel_drift": 2.254993338720478e-12,
+   "rel_change_vs_prev": 3.5690335954272294e-11
+  }
+ ],
+ "pendulum_damped": [
+  {
+   "rtol": 1e-06,
+   "nfev": 449,
+   "wall_s": 0.002953327000000172
+  },
+  {
+   "rtol": 1e-08,
+   "nfev": 740,
+   "wall_s": 0.004650155000007317,
+   "rel_change_vs_prev": 1.0078250578990194e-06
+  },
+  {
+   "rtol": 1e-10,
+   "nfev": 1208,
+   "wall_s": 0.00776084199999616,
+   "rel_change_vs_prev": 8.575723844121043e-09
+  },
+  {
+   "rtol": 1e-12,
+   "nfev": 1994,
+   "wall_s": 0.012846995000003858,
+   "rel_change_vs_prev": 5.889984021868884e-11
+  }
+ ],
+ "reference_rtol": 1e-12,
+ "method": "DOP853",
+ "platform": "Linux-6.18.44-fc-v32-x86_64-with-glibc2.39",
+ "cpu": "x86_64",
+ "total_wall_s": 0.10756118199999776
+}

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: >-
+  If you use these computational materials, please cite them as below, and
+  cite the book they accompany (see preferred-citation).
+type: software
+title: >-
+  Computational Materials for Scientific Machine Learning: Mathematical
+  Foundations, Methods, and Limitations
+version: 1.0.0
+authors:
+  - family-names: Alsammani
+    given-names: Abdallah A.
+    affiliation: Department of Mathematical Sciences, Delaware State University
+license: MIT
+abstract: >-
+  Code, experiment configurations, stored numerical results, figure scripts and
+  reproducibility documentation for the book "Scientific Machine Learning:
+  Mathematical Foundations, Methods, and Limitations".
+keywords:
+  - scientific machine learning
+  - physics-informed neural networks
+  - operator learning
+  - inverse problems
+  - uncertainty quantification
+  - numerical analysis
+  - reproducibility
+# To add after the first GitHub release and Zenodo archival (do not invent values):
+#   doi: <Zenodo DOI of this version>
+#   date-released: <YYYY-MM-DD of the v1.0.0 release>
+#   repository-code: <GitHub URL of this repository>
+preferred-citation:
+  type: book
+  title: "Scientific Machine Learning: Mathematical Foundations, Methods, and Limitations"
+  authors:
+    - family-names: Alsammani
+      given-names: Abdallah A.
+      affiliation: Department of Mathematical Sciences, Delaware State University
+  # To add once the arXiv version is announced (do not invent values):
+  #   url: <arXiv abstract URL>
+  #   identifiers:
+  #     - type: other
+  #       value: "arXiv:<identifier>"

@@ -1,0 +1,39 @@
+{
+ "rows": [
+  {
+   "rtol": 1e-06,
+   "nfev": 566,
+   "wall_s": 0.004793225999947026,
+   "invariant_max_rel_drift": 3.4924596548080445e-16
+  },
+  {
+   "rtol": 1e-08,
+   "nfev": 1031,
+   "wall_s": 0.0076942360000202825,
+   "invariant_max_rel_drift": 3.4924596548080445e-16,
+   "rel_change_vs_prev": 7.662775239474686e-07
+  },
+  {
+   "rtol": 1e-10,
+   "nfev": 1700,
+   "wall_s": 0.012948456000003716,
+   "invariant_max_rel_drift": 3.4924596548080445e-16,
+   "rel_change_vs_prev": 1.260883343593324e-09
+  },
+  {
+   "rtol": 1e-12,
+   "nfev": 2816,
+   "wall_s": 0.021007449999956407,
+   "invariant_max_rel_drift": 4.656612873077392e-16,
+   "rel_change_vs_prev": 1.1483776972358884e-11
+  }
+ ],
+ "peak_incidence_per_day": 7872.594966212453,
+ "peak_day": 68.0,
+ "final_size_fraction": 0.5403766203165388,
+ "R0_before_intervention": 3.5,
+ "R0_after": 1.4000000000000001,
+ "platform": "Linux-6.18.44-fc-v32-x86_64-with-glibc2.39",
+ "cpu": "x86_64",
+ "total_wall_s": 0.04723697899999024
+}

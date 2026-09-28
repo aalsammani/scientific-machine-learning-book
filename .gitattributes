@@ -1,0 +1,8 @@
+# Code and documentation use LF line endings on every platform.
+* text=auto eol=lf
+# Stored results are kept byte for byte as produced (some were written with CRLF line endings).
+*.json -text
+*.png binary
+*.pdf binary
+*.npz binary
+*.pt binary

@@ -1,0 +1,84 @@
+{
+ "protocol": "legacy np.random.seed(0); Q=qr(randn(20,20)); A=Q diag(linspace(1,50,20)) Q^T; b=randn(20); x0=3*randn(20); eta=1/L; float64",
+ "L": 50.0,
+ "mu": 1.0,
+ "eta": 0.02,
+ "f0_minus_fstar": 1898.2188804396365,
+ "dist0_sq": 180.88464778383909,
+ "convex_check": [
+  {
+   "K": 1,
+   "min_grad_sq": 125314.87304156812,
+   "bound": 189821.88804396364,
+   "bound_over_observed": 1.514759449032023
+  },
+  {
+   "K": 10,
+   "min_grad_sq": 170.22801100686934,
+   "bound": 18982.188804396363,
+   "bound_over_observed": 111.5103718366912
+  },
+  {
+   "K": 50,
+   "min_grad_sq": 2.1329782751852155,
+   "bound": 3796.437760879273,
+   "bound_over_observed": 1779.8764314885543
+  },
+  {
+   "K": 100,
+   "min_grad_sq": 0.28261645721309814,
+   "bound": 1898.2188804396365,
+   "bound_over_observed": 6716.590035690468
+  },
+  {
+   "K": 250,
+   "min_grad_sq": 0.0006592037295256863,
+   "bound": 759.2875521758546,
+   "bound_over_observed": 1151825.3282974917
+  },
+  {
+   "K": 500,
+   "min_grad_sq": 2.704316400785533e-08,
+   "bound": 379.6437760879273,
+   "bound_over_observed": 14038437809.187222
+  }
+ ],
+ "strongly_convex_check": [
+  {
+   "k": 0,
+   "actual": 180.88464778383909,
+   "predicted": 180.88464778383909,
+   "predicted_sharp_(L-mu)/(L+mu)": 180.88464778383909
+  },
+  {
+   "k": 20,
+   "actual": 6.973327981923758,
+   "predicted": 120.76003282860341,
+   "predicted_sharp_(L-mu)/(L+mu)": 81.26804027883813
+  },
+  {
+   "k": 50,
+   "actual": 2.0467051411538075,
+   "predicted": 65.87270431611147,
+   "predicted_sharp_(L-mu)/(L+mu)": 24.47354632454053
+  },
+  {
+   "k": 100,
+   "actual": 0.2714245548461303,
+   "predicted": 23.988841657271546,
+   "predicted_sharp_(L-mu)/(L+mu)": 3.3112509935900936
+  },
+  {
+   "k": 200,
+   "actual": 0.0047738001953485714,
+   "predicted": 3.181389527016902,
+   "predicted_sharp_(L-mu)/(L+mu)": 0.060615332903509025
+  },
+  {
+   "k": 299,
+   "actual": 8.742330585384664e-05,
+   "predicted": 0.4305249655114282,
+   "predicted_sharp_(L-mu)/(L+mu)": 0.0011549069206275126
+  }
+ ]
+}

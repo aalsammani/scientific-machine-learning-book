@@ -1,0 +1,22 @@
+{
+ "platform": "Linux-6.18.44-fc-v32-x86_64-with-glibc2.39",
+ "torch": "2.14.0+cu130",
+ "python": "3.12",
+ "float64": true,
+ "layers": [
+  2,
+  32,
+  32,
+  32,
+  1
+ ],
+ "adam": {
+  "iters": 5000,
+  "lr": 0.001
+ },
+ "lbfgs_iters": 10000,
+ "n_r": 2000,
+ "n_b": 100,
+ "n_0": 100,
+ "threads": 1
+}

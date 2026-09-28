@@ -1,0 +1,14 @@
+{
+ "n_train_used": 200,
+ "seed": 0,
+ "dataset": "experiments/ch09new/results/legacy_first_order_solver/darcy_dataset.npz",
+ "normalize": false,
+ "rel_l2_median": 0.022814720126539123,
+ "rel_l2_min": 0.0185480895625975,
+ "rel_l2_max": 0.03183546554818194,
+ "rel_l2_mean": 0.023399193022486338,
+ "train_mse": 7.003366668122702e-07,
+ "adam_s": 62.24438689998351,
+ "lbfgs_s": 48.12373110000044,
+ "n_params": 13057
+}

@@ -1,0 +1,54 @@
+{
+ "nu": 0.003183098861837907,
+ "mol_fd_rows": [
+  {
+   "N": 256,
+   "h": 0.0078125,
+   "rel_l2_vs_colehopf": 0.035302403425750244,
+   "rel_linf": 0.36173268662376634,
+   "wall_s": 0.19871809299999654
+  },
+  {
+   "N": 512,
+   "h": 0.00390625,
+   "rel_l2_vs_colehopf": 0.0058623139168075674,
+   "rel_linf": 0.06304559526333949,
+   "wall_s": 2.0704070959999967
+  },
+  {
+   "N": 1024,
+   "h": 0.001953125,
+   "rel_l2_vs_colehopf": 0.0013260231652015813,
+   "rel_linf": 0.013599911608063463,
+   "wall_s": 3.6486679700000053
+  },
+  {
+   "N": 2048,
+   "h": 0.0009765625,
+   "rel_l2_vs_colehopf": 0.0003243506931710399,
+   "rel_linf": 0.003388573886544211,
+   "wall_s": 14.40543910000001
+  },
+  {
+   "N": 4096,
+   "h": 0.00048828125,
+   "rel_l2_vs_colehopf": 8.065983968914428e-05,
+   "rel_linf": 0.0008407902572616522,
+   "wall_s": 109.116571104
+  }
+ ],
+ "observed_order_l2": [
+  2.5902242780347304,
+  2.1443642448364666,
+  2.031479551971683,
+  2.0076320784951727
+ ],
+ "expected_order": 2.0,
+ "reference": "Cole-Hopf (n=200 Gauss-Hermite; n=400 overflows in numpy hermgauss) for nu=0.01/pi; MOL-FD N=4096 for other nu",
+ "platform": "Linux-6.18.44-fc-v32-x86_64-with-glibc2.39",
+ "cpu": "x86_64",
+ "total_wall_s": 237.02784575100003,
+ "colehopf_quadrature_change_100_to_200": 5.551115123125783e-16,
+ "colehopf_quadrature_change_150_to_200": 6.661338147750939e-16,
+ "mol_vs_colehopf_consistency": "MOL-FD converges to the Cole-Hopf solution at observed order 2.01, finest rel L2 8.1e-5; the two independent methods agree, which validates both."
+}

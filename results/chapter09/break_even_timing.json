@@ -1,0 +1,40 @@
+{
+ "machine": "Windows-11-10.0.26200-SP0",
+ "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+ "cpu_count": 20,
+ "torch": "2.14.0+cpu",
+ "numpy": "2.5.3",
+ "threads": 1,
+ "precision": "float64",
+ "classical_per_solve_s": 0.0009370702000451274,
+ "classical_per_solve_reps_s": [
+  0.000910916599968914,
+  0.0009007601999910549,
+  0.0009370702000451274,
+  0.002238363599986769,
+  0.002641281200048979
+ ],
+ "deeponet_n200_seed0": {
+  "n_train_used": 200,
+  "seed": 0,
+  "dataset": "experiments/ch09new/results/darcy_dataset.npz",
+  "normalize": true,
+  "rel_l2_median": 0.002054447081120325,
+  "rel_l2_min": 0.0008761554006284772,
+  "rel_l2_max": 0.003569056610516121,
+  "rel_l2_mean": 0.002069257549702871,
+  "train_mse": 8.029630281749884e-09,
+  "adam_s": 29.249642200011294,
+  "lbfgs_s": 33.67613499998697,
+  "n_params": 13057
+ },
+ "deeponet_training_s": 62.925777199998265,
+ "deeponet_eval_per_query_s": 0.0013650500040967017,
+ "deeponet_eval_per_query_batched1000_s": 1.99945000349544e-06,
+ "quadratic_fit_s": 0.004131199995754287,
+ "quadratic_eval_per_query_s": 7.90000194683671e-06,
+ "quadratic_n200_test_median": 2.2809095157834586e-05,
+ "break_even_queries_deeponet_single_query_eval": null,
+ "break_even_queries_deeponet_batched_eval": 67495.63200131895,
+ "break_even_queries_quadratic": 206.1465600132361
+}

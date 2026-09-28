@@ -1,0 +1,7 @@
+{
+ "N": 16,
+ "k_true": 12,
+ "nyquist": 8,
+ "dominant_detected_mode": 4,
+ "predicted_alias": 4
+}

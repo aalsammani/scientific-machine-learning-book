@@ -1,0 +1,31 @@
+{
+ "true_value": 0.65,
+ "rows": [
+  {
+   "n": 100,
+   "empirical_var": 0.0013038196533565532,
+   "mean_est": 0.6541975237575002
+  },
+  {
+   "n": 400,
+   "empirical_var": 0.0003074974630269848,
+   "mean_est": 0.6499169666830943
+  },
+  {
+   "n": 1600,
+   "empirical_var": 8.60070179576114e-05,
+   "mean_est": 0.6496751310467849
+  },
+  {
+   "n": 6400,
+   "empirical_var": 1.964927995302323e-05,
+   "mean_est": 0.6498788496311046
+  },
+  {
+   "n": 25600,
+   "empirical_var": 4.775349843132528e-06,
+   "mean_est": 0.6501962405226138
+  }
+ ],
+ "note": "empirical Var(estimator)*n should be approximately constant (=Var(g)) if MC rate Var~1/n holds"
+}

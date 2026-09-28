@@ -1,0 +1,17 @@
+{
+ "seed": 0,
+ "rel_l2_trajectory": 0.00987786310927225,
+ "rel_l2_interaction_term_default_grid": 4.3039607651095695,
+ "rel_l2_interaction_term_on_trajectory": 0.05915830436250574,
+ "trajectory_x_range": [
+  0.9504548466401378,
+  6.90222778497685
+ ],
+ "trajectory_y_range": [
+  0.25770466651235946,
+  4.577750149932863
+ ],
+ "adam_s": 40.98748941000008,
+ "lbfgs_s": 30.266709250000076,
+ "n_params": 82
+}

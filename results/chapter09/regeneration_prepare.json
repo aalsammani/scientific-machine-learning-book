@@ -1,0 +1,80 @@
+{
+ "legacy_state_on_legacy_test_median": 0.022640849105452117,
+ "generation_time_500_s": 0.45596609998028725,
+ "legacy_vs_corrected_rel_diff_median": 0.1403891918203839,
+ "legacy_vs_corrected_rel_diff_range": [
+  0.1402144049335033,
+  0.14046239221879372
+ ],
+ "baseline_a_equal_1": 0.013319943796387438,
+ "test_set_spread_about_its_mean_median": 0.01317399114221397,
+ "baselines_by_n_train": {
+  "25": {
+   "mean_predictor_median": 0.013197973577466979,
+   "affine_ls_median": 0.0007439851661214656,
+   "affine_ls_range": [
+    0.0002612681412756001,
+    0.0030503654376778087
+   ],
+   "quadratic_ls_median": 6.178787380016007e-05,
+   "quadratic_ls_range": [
+    1.2684265754441207e-05,
+    0.0003418490050068963
+   ]
+  },
+  "50": {
+   "mean_predictor_median": 0.013240515727901025,
+   "affine_ls_median": 0.0006526541469275237,
+   "affine_ls_range": [
+    0.0001801922762668322,
+    0.00336272522080205
+   ],
+   "quadratic_ls_median": 3.150613473270628e-05,
+   "quadratic_ls_range": [
+    9.373173952419799e-06,
+    0.0002503401187690272
+   ]
+  },
+  "100": {
+   "mean_predictor_median": 0.013245589309167258,
+   "affine_ls_median": 0.0006424495310978865,
+   "affine_ls_range": [
+    0.000221903944824488,
+    0.003359025058304038
+   ],
+   "quadratic_ls_median": 2.438201143481207e-05,
+   "quadratic_ls_range": [
+    1.088883329121796e-05,
+    0.0002473273917361526
+   ]
+  },
+  "200": {
+   "mean_predictor_median": 0.013114900409512718,
+   "affine_ls_median": 0.0005834536184054386,
+   "affine_ls_range": [
+    0.000242879446648143,
+    0.003123757603853098
+   ],
+   "quadratic_ls_median": 2.2809095157834586e-05,
+   "quadratic_ls_range": [
+    1.1305303423006089e-05,
+    0.00021321783237645815
+   ]
+  },
+  "400": {
+   "mean_predictor_median": 0.013188404422119406,
+   "affine_ls_median": 0.000617708365415227,
+   "affine_ls_range": [
+    0.0002808314510459113,
+    0.0030116124680288803
+   ],
+   "quadratic_ls_median": 2.4861457325760504e-05,
+   "quadratic_ls_range": [
+    9.97112542599595e-06,
+    0.000186874195096249
+   ]
+  }
+ },
+ "legacy_test_spread_about_train200_mean_median": 0.013518144225123738,
+ "legacy_affine_ls_n200_median": 0.0005965023984716897
+}

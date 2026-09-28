@@ -1,0 +1,47 @@
+{
+ "protocol": "Chapter 14, section 14.3: calibration of a ten-member deep ensemble of PINNs for Running Example A.\n\nProtocol (experiments/ch14new/spec/ch14-e02.yaml): heat equation of Chapter 1 (nu = 0.5, T = 0.2,\ntwo-mode initial condition); each member is the 3x32 tanh PINN of Chapter 1 (code/ch01/exA_three_ways_pytorch.py:\nsame architecture, initialization, and collocation construction, n_r = 2000, n_b = n_0 = 100), trained with\nAdam (1500 iterations, learning rate 1e-3) and no L-BFGS stage; members use seeds 0-9. The ensemble mean m and\nstandard deviation s at 200 evaluation points drawn uniformly in [0,1] x [0,T] (seed 999) define Gaussian\nintervals m +- z_q s; empirical coverage of the exact solution is reported at five nominal levels.\nA second set of 200 points (seed 1999) shows the evaluation-set variability, and a set of 2000 points\n(seed 2999) gives the coverage with small sampling error.\n\nRun from the project root with the project venv:\n    _revision_work/venv/Scripts/python.exe code/ch14new/calibration_check.py\n",
+ "n_members": 10,
+ "levels": [
+  0.5,
+  0.68,
+  0.8,
+  0.9,
+  0.95
+ ],
+ "eval_seed_999": {
+  "coverage": {
+   "0.5": 0.545,
+   "0.68": 0.61,
+   "0.8": 0.68,
+   "0.9": 0.75,
+   "0.95": 0.79
+  },
+  "mean_abs_error": 0.017329806799115128,
+  "mean_std": 0.011601622934488975,
+  "rel_l2_ensemble_mean": 0.12294664851173533
+ },
+ "eval_seed_1999": {
+  "coverage": {
+   "0.5": 0.605,
+   "0.68": 0.7,
+   "0.8": 0.745,
+   "0.9": 0.78,
+   "0.95": 0.83
+  },
+  "mean_abs_error": 0.015304822137950671,
+  "mean_std": 0.010424480091166206,
+  "rel_l2_ensemble_mean": 0.18524832535462016
+ },
+ "eval_seed_2999": {
+  "coverage": {
+   "0.5": 0.608,
+   "0.68": 0.689,
+   "0.8": 0.7295,
+   "0.9": 0.781,
+   "0.95": 0.826
+  },
+  "mean_abs_error": 0.014712152665091559,
+  "mean_std": 0.01066201551742957,
+  "rel_l2_ensemble_mean": 0.14570431251371793
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "n_train_used": 200,
+ "seed": 3,
+ "dataset": "experiments/ch09new/results/darcy_dataset.npz",
+ "normalize": false,
+ "rel_l2_median": 0.017739320753266993,
+ "rel_l2_min": 0.013896363952960226,
+ "rel_l2_max": 0.033010362728641475,
+ "rel_l2_mean": 0.01797362340436769,
+ "train_mse": 5.236875626539028e-07,
+ "adam_s": 68.14663899998413,
+ "lbfgs_s": 80.77491149998968,
+ "n_params": 13057
+}

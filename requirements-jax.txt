@@ -1,0 +1,8 @@
+# Optional: needed only for the JAX scripts
+#   code/chapter01/exA_three_ways.py, spectral_bias_control.py, exA_spectral_control.py
+#   code/chapter07/residual_bound_check.py
+# These are the versions recorded for the original JAX runs; they were also installed and tested in
+# the reference environment of this repository (Python 3.14, CPU).
+jax==0.11.1
+jaxlib==0.11.1
+optax==0.2.8

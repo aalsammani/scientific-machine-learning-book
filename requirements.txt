@@ -1,0 +1,12 @@
+# Reference environment of this repository (Python 3.14; see docs/COMPUTATIONAL_ENVIRONMENT.md).
+# These exact versions were installed into a fresh virtual environment and used to run the
+# repository's tests and reproduction checks. Other recent versions will usually work but are not
+# guaranteed to reproduce stored results bitwise.
+numpy==2.5.3
+scipy==1.18.1
+sympy==1.14.0
+matplotlib==3.11.2
+# CPU build. On Linux, PyPI's default torch wheel includes CUDA libraries; for a CPU-only install use
+#   pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0
+pytest==9.1.1

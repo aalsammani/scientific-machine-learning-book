@@ -1,0 +1,24 @@
+{
+ "r_values": [
+  0.4,
+  0.5,
+  0.6
+ ],
+ "results": [
+  {
+   "r": 0.4,
+   "stable": true,
+   "note": "max|u| matches exact to 4 digits"
+  },
+  {
+   "r": 0.5,
+   "stable": true,
+   "note": "boundary of stability, still stable (|g|<=1 achieved with equality at k=pi/h)"
+  },
+  {
+   "r": 0.6,
+   "stable": false,
+   "note": "max|u| = 3.25e+176 after 1333 steps: violates r<=1/2 from Theorem 3.2, blows up"
+  }
+ ]
+}

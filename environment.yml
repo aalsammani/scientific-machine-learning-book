@@ -1,0 +1,13 @@
+# Conda alternative to a virtual environment. Package versions are taken from requirements.txt
+# (and requirements-jax.txt for the optional JAX scripts), so there is a single source of truth.
+#   conda env create -f environment.yml
+#   conda activate sciml-book
+name: sciml-book
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+      - -r requirements.txt
+      - -r requirements-jax.txt

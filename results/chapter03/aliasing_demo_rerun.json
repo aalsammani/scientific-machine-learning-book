@@ -1,0 +1,17 @@
+{
+ "N": 16,
+ "k_true": 12,
+ "nyquist": 8,
+ "dominant_detected_mode": 4,
+ "energy_fraction_at_dominant": 1.0,
+ "predicted_alias": 4,
+ "full_fft_nonzero_bins": [
+  4,
+  12
+ ],
+ "full_fft_signed_wavenumbers": [
+  4,
+  -4
+ ],
+ "max_abs_sin12_plus_sin4_on_grid": 6.002007277095207e-15
+}
